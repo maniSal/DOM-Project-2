@@ -1,0 +1,26 @@
+/*Style the container class */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20%;   
+}
+/*Style the color-box*/
+#color-box{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15%;
+    background-color: rgb(225, 70, 122);
+    border-radius: 15px;
+
+}
+/*Style the change-color-btn*/
+#change-color-btn{
+    border-radius: 15px;
+    border-color: rgb(225, 70, 122);
+    background-color: white;
+    font-size: larger;
+    cursor: pointer;
+    padding: 3%;    
+}
